@@ -24,7 +24,7 @@ func main() {
 	name := os.Args[1]
 	var dataSlice []string
 	for i, v := range participant {
-		if isValid := v.nama == name; isValid == true {
+		if v.nama == name {
 			dataSlice = append(dataSlice, strconv.Itoa(i), v.nama, v.alamat, v.pekerjaan, v.alasan)
 
 			// fmt.Printf("%#v", dataSlice)
