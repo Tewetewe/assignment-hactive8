@@ -66,6 +66,6 @@ func postBiodata(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	http.Error(w, "", http.StatusBadRequest)
+	http.Error(w, "Invalid Method", http.StatusBadRequest)
 
 }
