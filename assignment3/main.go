@@ -69,7 +69,7 @@ func hitAutomation() {
 			fmt.Printf("Status Water : %s \n", status)
 		case randomNumbWater > 8:
 			status := "Bahaya"
-			fmt.Printf("Status Bahaya : %s \n", status)
+			fmt.Printf("Status Water : %s \n", status)
 		default:
 			status := "Error"
 			fmt.Println(status)
@@ -78,13 +78,13 @@ func hitAutomation() {
 		switch randomNumbWind > 0 {
 		case randomNumbWind < 6:
 			status := "Aman"
-			fmt.Printf("Status wind : %s \n", status)
+			fmt.Printf("Status Wind : %s \n", status)
 		case randomNumbWind >= 7 && randomNumbWind <= 15:
 			status := "Siaga"
-			fmt.Printf("Status wind : %s \n", status)
+			fmt.Printf("Status Wind : %s \n", status)
 		case randomNumbWind > 15:
 			status := "Bahaya"
-			fmt.Printf("Status wind : %s \n", status)
+			fmt.Printf("Status Wind : %s \n", status)
 		default:
 			status := "Error"
 			fmt.Println(status)
