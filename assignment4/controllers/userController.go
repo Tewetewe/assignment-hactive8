@@ -141,7 +141,7 @@ func UserUpdate(c *gin.Context) {
 		"updated_at": User.UpdatedAt,
 	})
 
-	fmt.Println("User data successfully updated. User")
+	fmt.Println("User data successfully updated")
 }
 
 func UserDelete(c *gin.Context) {
